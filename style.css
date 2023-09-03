@@ -1,0 +1,119 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #232331;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .logo {
+    max-width: 500px;
+    margin-bottom: 24px;
+  }
+  
+  .container-input {
+    max-width: 480px;
+    margin: 14px 0;
+  }
+  
+  .container-input span {
+    color: #ffffff;
+    font-size: 24px;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #03114e;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+  }
+  
+  .button-cta {
+    height: 50px;
+    background-color: chartreuse;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-cta:hover {
+    background-color: rgb(23, 88, 23);
+  }
+  
+  
+  .container-word {
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .word {
+    height: 60px;
+    background-color: rgba(46, 28, 28, 0.4);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #2a2a38;
+    transition: transform 0.5s;
+  }
+  
+  .word:hover {
+    transform: scale(1.05);
+  }
+  
+  .tooltip {
+    color: #ffffff;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .container-word:hover .tooltip {
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+  }
+
+  
+
+  
